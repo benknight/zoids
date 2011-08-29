@@ -6,13 +6,13 @@
  * Sample usage (with defaults):
  *
  *	$(this).zoids({
- *		coords : [ 						// the coordinates that define the shape, drawn in order
+ *		coords : [ 	// the coordinates that define the shape, drawn in order
  *			{ x : 0, y : 0 },
  *			{ x : a, y : b },
  *			{ x : c, y : d },
  *			// …
  *		],
- *		context_options : {				// options passed directly to the canvas context, see: http://goo.gl/z9K7a
+ *		context_options : {	// options passed directly to the canvas context, see: http://goo.gl/z9K7a
  *			fillStyle		: $(this).css( 'background-color' ),
  *			strokeStyle		: '',
  *			shadowOffsetX	: 0,
@@ -20,7 +20,7 @@
  *			shadowBlur		: 0,
  *			shadowColor		: ''
  *		},
- *		show_on_hover : false			// whether the shape drawn should show on hover, default: false
+ *		show_on_hover : false // whether the shape drawn should show on hover, default: false
  *	});
  *	
  */
