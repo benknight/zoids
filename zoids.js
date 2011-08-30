@@ -12,9 +12,9 @@
  *			{ x : e, y : f },
  *			// …
  *		],
- *		context_options : {	// options passed directly to the canvas context, see: http://goo.gl/z9K7a
+ *		context_options : { // options passed directly to the canvas context, see: http://goo.gl/z9K7a
  *			fillStyle : $(this).css( 'background-color' ),
- *			strokeStyle	: '',
+ *			strokeStyle : '',
  *			shadowOffsetX : 0,
  *			shadowOffsetY : 0,
  *			shadowBlur : 0,
