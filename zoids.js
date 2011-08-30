@@ -6,10 +6,10 @@
  * Sample usage (with defaults):
  *
  *	$(this).zoids({
- *		coords : [ 	// the coordinates that define the shape, drawn in order
- *			{ x : 0, y : 0 },
+ *		coords : [ // the coordinates that define the shape, drawn in order
  *			{ x : a, y : b },
  *			{ x : c, y : d },
+ *			{ x : e, y : f },
  *			// …
  *		],
  *		context_options : {	// options passed directly to the canvas context, see: http://goo.gl/z9K7a
