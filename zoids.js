@@ -13,12 +13,12 @@
  *			// …
  *		],
  *		context_options : {	// options passed directly to the canvas context, see: http://goo.gl/z9K7a
- *			fillStyle		: $(this).css( 'background-color' ),
- *			strokeStyle		: '',
- *			shadowOffsetX	: 0,
- *			shadowOffsetY	: 0,
- *			shadowBlur		: 0,
- *			shadowColor		: ''
+ *			fillStyle : $(this).css( 'background-color' ),
+ *			strokeStyle	: '',
+ *			shadowOffsetX : 0,
+ *			shadowOffsetY : 0,
+ *			shadowBlur : 0,
+ *			shadowColor : ''
  *		},
  *		show_on_hover : false // whether the shape drawn should show on hover, default: false
  *	});
