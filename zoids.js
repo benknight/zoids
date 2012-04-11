@@ -1,8 +1,9 @@
 /**
- * Zoids jQuery plugin
- * Author: Benjamin Knight
+ * Zoids jQuery plugin / by Benjamin Knight / MIT license
  * 
  * Uses canvas API to draw custom shapes and set them as backgrounds on DOM elements.
+ * Inspired by the link hover effect on html5doctor.com
+ *
  * Sample usage (with defaults):
  *
  *	$(this).zoids({
@@ -12,7 +13,7 @@
  *			{ x : e, y : f },
  *			// …
  *		],
- *		context_options : { // options passed directly to the canvas context, see: http://goo.gl/z9K7a
+ *		context_options : { // options passed directly to the canvas context
  *			fillStyle : $(this).css( 'background-color' ),
  *			strokeStyle : '',
  *			shadowOffsetX : 0,
@@ -20,11 +21,11 @@
  *			shadowBlur : 0,
  *			shadowColor : ''
  *		},
- *		show_on_hover : false // whether the shape drawn should show on hover, default: false
+ *		show_on_hover : false // whether the shape drawn should show on hover
  *	});
  *	
  */
-(function( $ ){
+(function($){
 
 	$.fn.zoids = function( options ) {  
 
